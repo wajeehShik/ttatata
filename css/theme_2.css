@@ -1,0 +1,300 @@
+
+.header{width: 100%;
+    height: 391px;
+    background: #263788;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: -234px;
+    border-bottom: 87px solid #9CA3C8;
+}
+.header span{
+    font-family: "beINNormal";
+    font-size: 48px;
+    color:white;
+    width: 120px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 40%;
+    width: 379px;
+}
+.index_2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding-top: 60px;
+}
+.index_2 article{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+.index_2 article section{
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px #0000004d;
+}
+.index_2 article section .content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+.index_2 article section figure {
+    position: relative;
+}
+.index_2 article section figure  img{
+    width: 505px;
+    height: 397px;
+}
+.index_2 article section figure .colors{
+    position: absolute;
+    display: flex;
+    left: 36px;
+    top: 199px;
+    width: 38px;
+    flex-direction: column;
+    row-gap: 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 3px 6px #0000004d;
+ border-radius: 20px;
+    padding: 10px;
+    height: 150px;
+    margin: auto;
+    margin-right: 100px;
+}
+.index_2 article section figure .colors  span{
+    margin:auto;
+    width: 37px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.index_2 article section figure span.color1{
+    background: #5d3519;
+}
+
+.index_2 article section figure span.color2{
+    background: #000000;
+}
+.index_2 article section figure span.color3{
+    background: #D4656E;
+}
+.index_2 article section .content div{
+    display: flex;
+    column-gap:90px
+}
+.index_2 article section .content div span.title{
+    font-size: 48px;
+    font-family: 'beINNormal';
+}
+.index_2 article section .content div span.price{
+    font-size: 39px;
+    font-family: 'beINNormal';
+    color:#686868;
+    padding-top: 10px;
+
+}
+.index_2 article section .content p{
+    font-size: 30px;
+    font-family: 'beINNormal';
+    color:#B7B7B7;
+    width: 340px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.index_2 article section .content button{
+    width: 200px;
+    height: 73px;
+    background-color: #263788;
+    border-radius: 20px;
+    border:0;
+    color:white;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+@media only screen  and (max-width:1200px){
+
+
+
+    .header{width: 100%;
+        height: 331px;
+        margin-top: -234px;
+        border-bottom: 47px solid #9CA3C8;
+    }
+    .header span{
+        font-size: 35px;
+        width: 120px;
+        top: 10px;
+        right: 32%;
+        width: 379px;
+    }
+    .index_2{
+        row-gap: 40px;
+        padding-top: 60px;
+    }
+    .index_2 article{
+        column-gap: 20px;
+    }
+    .index_2 article section .content{
+        display: flex;
+        flex-direction: column;
+        padding-top: 44px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .index_2 article section figure  img{
+        width:311px;
+        height: 245px;
+    }
+    .index_2 article section figure .colors{
+        position: absolute;
+        display: flex;
+        left: 36px;
+        top: 104px;
+        width: 25px;
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        box-shadow: 0px 3px 6px #0000004d;
+     border-radius: 20px;
+        padding: 10px;
+        height: 100px;
+        margin: auto;
+        margin-right: 100px;
+    }
+    .index_2 article section figure .colors  span{
+        margin:auto;
+        width: 27px;
+        height: 34px;
+        border-radius: 50%;
+    }
+    
+    .index_2 article section .content div{
+        display: flex;
+        column-gap:90px
+    }
+    .index_2 article section .content div span.title{
+        font-size: 28px;
+        font-family: 'beINNormal';
+    }
+    .index_2 article section .content div span.price{
+        font-size: 22px;
+        padding-top: 10px;
+    
+    }
+    .index_2 article section .content p{
+        font-size: 24px;
+        width:228px;
+    }
+    .index_2 article section .content button{
+        width: 123px;
+        height: 45px;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    
+    }
+
+
+
+    
+}
+@media only screen  and (max-width:720px){
+
+
+
+
+    .header{width: 100%;
+        height: 301px;
+        margin-top: -234px;
+        border-bottom: 37px solid #9CA3C8;
+    }
+    .header span{
+        font-size: 20px;
+        width: 120px;
+        top: 10px;
+        right: 23%;
+        width: 379px;
+    }
+    .index_2{
+        row-gap: 20px;
+        padding-top: 30px;
+    }
+    .index_2 article{
+        column-gap: 10px;
+    }
+    .index_2 article section .content{
+        display: flex;
+        flex-direction: column;
+        padding-top: 34px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .index_2 article section figure  img{
+        width:174px;
+        height: 137px;
+    }
+    .index_2 article section figure .colors{
+        position: absolute;
+        display: flex;
+        left: 16px;
+        top: 44px;
+        width: 10px;
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        box-shadow: 0px 3px 6px #0000004d;
+     border-radius: 20px;
+        padding:8px;
+        height:50px;
+        margin: auto;
+        margin-right: 100px;
+    }
+    .index_2 article section figure .colors  span{
+        margin:auto;
+        width:13px;
+        height: 24px;
+        border-radius: 50%;
+    }
+    
+    .index_2 article section .content div{
+        display: flex;
+        column-gap:35px
+    }
+    .index_2 article section .content div span.title{
+        font-size: 17px;
+    }
+    .index_2 article section .content div span.price{
+        font-size:14px;
+        padding-top: 10px;
+    
+    }
+    .index_2 article section .content p{
+        font-size: 14px;
+        width:133px;
+    }
+    .index_2 article section .content button{
+        width:69px;
+        height: 25px;
+        font-size: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    
+    }
+
+    
+
+}

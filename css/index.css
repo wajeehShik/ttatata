@@ -1,0 +1,306 @@
+@font-face {
+    font-family: beINNormal;
+    src: url("../fonts/beIN.ttf");
+  }
+  figure{
+    margin: 0;
+  }
+body{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    direction:rtl;
+    overflow-x: hidden;
+}
+.other-catlog{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 45px;
+    justify-content: center;
+}
+.other-catlog>span{
+    margin-bottom: 58px;
+    font-size: 48px;
+    font-family: "beINNormal";
+}
+.other-catlog article{
+    display: flex;
+    column-gap: 32px;
+
+}
+.other-catlog article>section>figure{
+    position: relative;
+}
+.other-catlog article>section>figure>.main-image{
+    width: 328px;
+    border-radius: 10px;
+    height: 348px;
+
+}
+.other-catlog article>section>figure>.eye{
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background: #425197;
+    right: 6px;
+    top: 4px;
+    padding: 4px;
+}
+.other-catlog article>section>div>span{
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    font-family: "beINNormal";
+}
+.other-catlog article>section>div>.colors{
+    display:none;
+}
+
+/* start user info */
+.user-info{
+    display: flex;
+    margin-top: 64px;
+    margin-bottom: 33px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+.user-info>figure>img{
+    width: 365px;
+    height: 345px;
+    border:30px solid #263788;
+    outline: 30px solid #9CA3C8;
+}
+.user-info>section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.user-info>section>span{
+    font-size: 35px;
+    font-family: "beINNormal";
+    background-color: #263788;
+    padding: 7px;
+    color:white;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px #00000053;
+}
+.user-info>section>p{
+  background-color: #9CA3C8;
+  color:white;
+  width: 448px;
+  padding-top: 60px;
+  padding-bottom: 82px;
+  padding-right: 37px;
+  padding-left: 9px;
+  box-shadow: 0 3px 6px #00000053;
+  border-radius: 17px;
+  font-size: 26px;
+
+}
+/* start footer */
+footer{
+    margin-top: 53px;
+    background-image: linear-gradient(#ABB7F2, #798CE8, #5A6DCC,#334497,#182561);
+    column-gap:45px;
+    padding: 50px;
+    display: flex;
+    justify-content:center;
+}
+footer img{
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+@media only screen  and (max-width:1200px){
+    .other-catlog>span{
+        font-size: 38px;
+    }
+    
+    .other-catlog article>section>figure>.main-image{
+        width: 268px;
+    
+    }
+    
+    .other-catlog article>section>figure>.eye{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .other-catlog article>section>div>span{
+        font-size: 30px;
+    }
+    .user-info{
+        column-gap: 42px;
+    }
+    .user-info>figure>img{
+        width: 305px;
+        height: 305px;
+        border:23px solid #263788;
+        outline: 23px solid #9CA3C8;
+    }
+    
+    .user-info>section>span{
+        font-size: 30px;
+    }
+    
+    .user-info>section>p{
+      width: 408px;
+    
+    }
+    footer{
+        column-gap:40px;
+    }
+    footer img{
+      width: 40px;
+      height: 40px;
+    }
+}
+
+@media only screen  and (max-width:800px){
+
+    .other-catlog>span{
+        font-size: 27px;
+    }
+    
+    .other-catlog article{
+        column-gap: 20px;
+    }
+    .other-catlog article>section>figure>.main-image{
+        width: 196px;
+        height: 223px;
+    
+    }
+    
+    .other-catlog article>section>figure>.eye{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .other-catlog article>section>div>span{
+        font-size: 21px;
+    }
+    .user-info{
+        column-gap: 42px;
+    }
+    .user-info>figure>img{
+        width: 219px;
+        height: 207px;
+        border:18px solid #263788;
+        outline: 18px solid #9CA3C8;
+    }
+    
+    .user-info>section>span{
+        font-size: 20px;
+    }
+    
+    .user-info>section>p{
+      width: 313px;
+    
+    }
+    footer{
+        column-gap:30px;
+    }
+    footer img{
+      width: 30px;
+      height: 30px;
+    }
+
+
+
+}
+
+
+@media only screen  and (max-width:500px){
+   
+    .other-catlog>span{
+        font-size: 18px;
+        justify-content: flex-start;
+    }
+    
+    .other-catlog article{
+        column-gap: 20px;
+    }
+    .other-catlog article>section.three-other{
+        display:none;
+    }
+    .other-catlog article>section{
+        display: flex;
+        column-gap: 5px;
+    }
+    
+    .other-catlog article>section>figure>.main-image{
+        width:66px;
+        height: 80px;
+    
+    }
+    
+    .other-catlog article>section>figure>.eye{
+  display:none;
+    }
+
+    
+    .other-catlog article>section>div>.colors{
+        width: 65px;
+        height: 22px;
+        padding: 5px;
+        border-radius: 20px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.279);
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        column-gap: 3px;
+    }
+    .other-catlog article>section>div>.colors>span{
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        padding: 3px;
+    }
+    .other-catlog article>section>div>.colors>span.color1{
+background-color: #5D3519;
+    }
+    .other-catlog article>section>div>.colors>span.color2{
+background-color: #000000;
+    }
+    .other-catlog article>section>div>.colors>span.color3{
+background-color: #D4656E;
+    }
+    
+    .other-catlog article>section>div>span{
+        font-size: 15px;
+    }
+    .user-info{
+        column-gap: 42px;
+    }
+    .user-info>figure>img{
+        width: 129px;
+        height: 126px;
+        border:8px solid #263788;
+        outline: 8px solid #9CA3C8;
+    }
+    
+    .user-info>section>span{
+        font-size: 14px;
+    }
+    
+    .user-info>section>p{
+      width: 173px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+    
+    }
+    footer{    padding: 21px;
+    }
+    footer img{
+      width: 20px;
+      height: 20px;
+    }
+}
+
+

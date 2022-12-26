@@ -1,0 +1,224 @@
+.header-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 82px;
+    text-align: center;
+    color:#263788;
+    font-size:64px;
+    font-family: "beINNormal";
+}
+.index2_2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content:center;
+    align-items: center;
+}
+.index2_2 section{
+    position: relative;
+    display: flex;
+    width: 1200px;
+    height: 563px;
+    column-gap: 20px;
+    background-color:#fff;
+    border-radius:282px;
+    box-shadow: 0px 0px 6px #26368864;
+}
+.index2_2 section figure img{
+    width: 570px;
+    height: 560px;
+border-radius: 50%;
+}
+.index2_2 section>div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.index2_2 section div span.title{
+    font-size: 61px;
+    font-family: 'beINNormal';
+}
+.index2_2 section div p{
+    font-size: 41px;
+    font-family: 'beINNormal';
+    color:#B7B7B7;
+    width: 389px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.index2_2 section>div div{
+    display: flex;
+    column-gap: 50px;
+}
+.index2_2 section>div div button{
+    font-size: 28px;
+    background-color: #263788;
+    color:#fff;
+    width:206px;
+    height: 78px;
+    border:0;
+    border-radius: 20px;
+}
+.index2_2 section>div div span.price{
+    font-size: 38px;
+    font-family: "beINNormal";
+    color:#686868;
+
+}
+.index2_2 .colors{
+    position: absolute;
+    display: flex;
+    left:56px;
+    top: 149px;
+    width: 58px;
+    flex-direction: column;
+    row-gap: 24px;
+    justify-content: center;
+    background-color: white;
+
+    box-shadow: 0px 0px 6px #26368864;
+    border-radius: 20px;
+    padding: 10px;
+    height: 150px;
+    margin: auto;
+    margin-right: 100px;
+}
+.index2_2 .colors  span{
+    margin:auto;
+    width: 37px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.index2_2 span.color1{
+    background: #5d3519;
+}
+
+.index2_2 span.color2{
+    background: #000000;
+}
+.index2_2 span.color3{
+    background: #D4656E;
+}
+@media only screen  and (max-width:1300px){
+    .header-title{
+        font-size:37px;
+        margin-bottom: 47px;
+    }
+    .index2_2{
+        row-gap: 30px;
+    }
+    .index2_2 section{
+        width: 671px;
+        height: 328px;
+        column-gap: 20px;
+    }
+    .index2_2 section figure img{
+        width: 331px;
+        height: 326px;
+    }
+ 
+    .index2_2 section div span.title{
+        font-size: 35px;
+    }
+    .index2_2 section div p{
+        font-size: 23px;
+        width: 218px;
+    }
+    .index2_2 section>div div{
+        display: flex;
+        column-gap: 33px;
+    }
+    .index2_2 section>div div button{
+        font-size: 15px;
+        width:120px;
+        height: 44px;
+    }
+    .index2_2 section>div div span.price{
+        font-size: 20px;
+        font-family: "beINNormal";
+        color:#686868;
+    
+    }
+    .index2_2 .colors{
+        position: absolute;
+        display: flex;
+        left:16px;
+        top: 99px;
+        width: 28px;
+        flex-direction: column;
+        row-gap: 24px;
+        justify-content: center;
+        background-color: white;
+     border-radius: 20px;
+        padding: 10px;
+        height: 100px;
+        margin: auto;
+        margin-right: 100px;
+    }
+    .index2_2 .colors  span{
+        margin:auto;
+        width: 27px;
+        height: 34px;
+        border-radius: 50%;
+    }
+}
+@media only screen  and (max-width:720px){
+    .header-title{
+        font-size:20px;
+        margin-bottom: 25px;
+    }
+    .index2_2{
+        row-gap: 16px;
+    }
+    .index2_2 section{
+        width: 358px;
+        height: 175px;
+        column-gap: 10px;
+    }
+    .index2_2 section figure img{
+        width: 177px;
+        height: 174px;
+    }
+    .index2_2 section div span.title{
+        font-size: 19px;
+    }
+    .index2_2 section div p{
+        font-size: 13px;
+        width: 123px;
+    }
+    .index2_2 section>div div{
+        column-gap: 14px;
+    }
+    .index2_2 section>div div button{
+        font-size: 10px;
+        width:64px;
+        height: 24px;
+    }
+    .index2_2 section>div div span.price{
+        font-size: 12px;
+    }
+    .index2_2 .colors{
+        position: absolute;
+        display: flex;
+        left:16px;
+        top: 69px;
+        width: 8px;
+        flex-direction: column;
+        row-gap: 8px;
+        justify-content: center;
+        background-color: white;
+     border-radius: 20px;
+        padding: 6px;
+        height: 30px;
+        margin: auto;
+        margin-right: 100px;
+    }
+    .index2_2 .colors  span{
+        margin:auto;
+        width: 10px;
+        height: 44px;
+        border-radius: 50%;
+    }
+}
